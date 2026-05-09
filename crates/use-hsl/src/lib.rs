@@ -238,7 +238,13 @@ mod tests {
 
     #[test]
     fn hsl_to_rgb_round_trips_common_colors() {
-        let colors = [Rgb::black(), Rgb::white(), Rgb::red(), Rgb::green(), Rgb::blue()];
+        let colors = [
+            Rgb::black(),
+            Rgb::white(),
+            Rgb::red(),
+            Rgb::green(),
+            Rgb::blue(),
+        ];
 
         for color in colors {
             assert_eq!(Hsl::from_rgb(color).to_rgb(), color);
