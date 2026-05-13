@@ -10,7 +10,7 @@ license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/RustUse/use-color"
 rust-version = "1.95.0"
-version = "0.1.0"
+version = "0.1.1"
 
 [workspace.lints.rust]
 unsafe_code = "forbid"
