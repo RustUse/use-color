@@ -1,0 +1,12 @@
+[package]
+name = "use-contrast"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+readme = "README.md"
+description = "WCAG-style contrast ratio helpers for Rust."
+
+[dependencies]
+use-luminance = { path = "../use-luminance" }
+use-rgb = { path = "../use-rgb" }

@@ -1,0 +1,11 @@
+[package]
+name = "use-luminance"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+readme = "README.md"
+description = "Relative luminance helpers for Rust."
+
+[dependencies]
+use-rgb = { path = "../use-rgb" }

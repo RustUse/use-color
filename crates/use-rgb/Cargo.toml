@@ -1,0 +1,10 @@
+[package]
+name = "use-rgb"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+readme = "README.md"
+description = "RGB color primitives for Rust."
+
+[dependencies]
